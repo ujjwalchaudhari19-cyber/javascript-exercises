@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-16">
+    <title>Functions</title>
+  </head>
+
+  <body>
+    <h2>Open console to see the functions working</h2>
+
+    <script>
+      function favouriteanimal(animal){
+        return animal + " is my favourite animal";
+      }
+
+      const animal=favouriteanimal("Peakcock");
+      console.log(animal);
+
+      function add7(n){
+        return 10+7;
+      }
+      console.log(add7())
+
+      function multiply(x,y){
+        return x*y;
+      }
+      console.log(multiply(5,3))
+
+      function capitalizedFirst(x){
+        y=x.slice(1)
+        return x[0].toUpperCase() + y.toLowerCase();
+      }
+      console.log(capitalizedFirst("aBcD"));
+
+      function lastLetter(x){
+        return x.slice(-1);
+      }
+      console.log(lastLetter("abcd"));
+    </script>
+
+  </body>
+</html>
